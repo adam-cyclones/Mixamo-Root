@@ -79,7 +79,7 @@ class MixamoPropertyGroup(bpy.types.PropertyGroup):
     insert_root: bpy.props.BoolProperty(
         name="Insert Root",
         description="Inserts a root bone at the base of the model aligned with the hip's horizontal plane coordinates",
-        default=False)
+        default=True)
     delete_armatures: bpy.props.BoolProperty(
         name="Delete Armatures",
         description="Deletes all but one imported armature in the blend file. This assumes you've imported mixamo armatures for animations all applied to the same model",
